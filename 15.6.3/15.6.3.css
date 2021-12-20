@@ -1,0 +1,87 @@
+#chat {
+    width: 400px;
+    margin: 15px auto;
+    padding: 20px;
+}
+
+.info_output {
+    color: grey;
+    font-style: italic;
+}
+
+.chat_output {
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 1px solid grey;
+    padding: 10px;
+    height: 150px;
+    overflow-y: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.chat_output > div {
+    max-width: 80%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 3px;
+    color: #fff;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.chat_output .recieved {
+    background: grey;
+    align-self: flex-start;
+}
+.chat_output .sent {
+    background: darkgrey;
+    align-self: flex-end;
+}
+.chat_input input {
+    padding: 5px 10px;
+}
+.btn_send {
+    padding: 7px 10px;
+    color: #fff;
+    background: grey;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn_geo {
+    padding: 7px 10px;
+    color: #fff;
+    background: darkgrey;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+a {
+    background-color: grey;
+    color: white;
+    padding: 0.5em 0.5em;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+a:hover {
+    background-color: darkgrey;
+    color: white;
+    cursor: pointer;
+}
+
+a:active {
+    box-shadow: none;
+    top: 5px;
+}
